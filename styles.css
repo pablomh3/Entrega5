@@ -49,8 +49,7 @@ header {
     position: relative;
     width: 45px;
 }
-.img-carrito {
-    display: flex;
+.img-carrito img{
     width: 24px;
     height: 24px;
     display: flex;

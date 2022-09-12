@@ -52,6 +52,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 12px;
+    overflow: hidden;
 }
 .home-img {
     width: 24px;
@@ -69,6 +70,7 @@ header {
     flex-direction: column-reverse;
     position: relative;
     width: 45px;
+    overflow: hidden;
 }
 .img-carrito img{
     width: 24px;
@@ -99,6 +101,7 @@ header {
     align-items: center;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 main {

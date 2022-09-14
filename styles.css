@@ -319,3 +319,75 @@ header {
     transition: 1s;
     
 }
+
+#populares{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    top: 250px;
+    max-width: 100%;
+    
+}
+
+.popus{
+    display: flex;
+    position: relative;
+    margin-left: 145px;
+}
+
+.produc-popus{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#popus1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #252525;
+    padding: 25px;
+    border-radius: 1em;
+    width: 20%;
+}
+
+#precio-popu1{
+    font-weight: 1000;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #FB103D, #ffa100);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;    
+}
+
+#btn-agg-popu{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background: linear-gradient(to left,#FB103D, #ffa100);
+    border-radius: 1em;
+    height:  10px;
+    padding: 20px;    
+    top: 20px;
+    transition-property: all;
+}
+
+.precio-btn{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 185px;
+    
+}
+
+#btn-agg-popu:hover{
+    display: flex;
+    transition: 1s;
+    transition-property: all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

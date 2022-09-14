@@ -19,7 +19,7 @@
 }
 
 body{
-  background-color: #131415;
+background-color: #131415;
 }
 
 header {
@@ -31,17 +31,27 @@ header {
     height: 130px;
     padding: 30px 100px 0px 30px;
     background-color: #131415;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 .logo-header{
     width: 76px;
     height: 79px;
+    cursor: pointer;  
 }
+
+.logo-header:hover{
+    transform: scale(1.1);
+}
+
 .navbar {
     display: flex;
     align-items:center;
     justify-content: space-between;
-    gap: 70px;
+    gap: 70px;  
 }
+
 .home {
     display: flex;
     gap: 10px;
@@ -51,9 +61,9 @@ header {
 }
 .home-img {
     width: 24px;
-    height: 24px;
-    cursor: pointer;
+    height: 24px;    
     display: flex;
+    cursor: pointer;
 }
 .carrito {
     display: flex;
@@ -89,6 +99,8 @@ header {
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    margin-top: 20px;
+    padding: 70px 0;
 }
 
 .titulos{
@@ -124,13 +136,21 @@ header {
     border-radius: 1em;
     background: linear-gradient(to left,#FB103D, #ffa100);
     cursor: pointer;
- }
+}
 
- .imagen-principal{
+.boton-vermas:hover{
+    transition: 1s;
+    transition-property: all;
+    transform: scale(1.1)
+}
+
+.imagen-principal{
     display: flex;
     position: relative;
     right: 400px;
     top: 70px;
+    z-index: 1;
+    padding: 30px;
 }
 
 #pizza1{
@@ -146,6 +166,7 @@ header {
     width: 600px;
     left: 200px;
     bottom: 200px;
+    
 }
 
 #recomendados{
@@ -191,9 +212,9 @@ header {
 }
 
 #letra-medio{
-     display: flex;
-     flex-direction: column;
-     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 #img-prod{

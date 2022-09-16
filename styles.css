@@ -100,7 +100,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 0 150px;
-    gap: 100px;
+    gap: 50px;
 }
 
 #hero{

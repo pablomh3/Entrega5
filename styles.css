@@ -157,6 +157,7 @@ main {
     right: 200px;
     top: 70px;
     z-index: 1;
+    height: 400px;
     
 }
 
@@ -164,6 +165,7 @@ main {
     display: flex;
     width: 300px;
     position: absolute;
+    height: fit-content;
 }
 
 #pizza2{
@@ -173,14 +175,13 @@ main {
     width: 450px;
     left: 140px;
     bottom: 130px;
-    
+    height: fit-content;
 }
 
 #recomendados{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 0 20px;
 }
 
 .recomenda{
